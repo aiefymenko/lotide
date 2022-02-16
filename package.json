@@ -1,9 +1,9 @@
 {
-  "name": "lotide",
+  "name": "@aiefymenko/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first project as web-developer :)",
   "main": "assertArraysEqual.js",
-  "directories": {
+  "directories": { 
     "test": "test"
   },
   "scripts": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/aiefymenko/lotide.git"
   },
-  "author": "",
+  "author": "aiefymenko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aiefymenko/lotide/issues"
