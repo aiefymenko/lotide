@@ -1,7 +1,6 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = (actual, expected) => {
-  return (actual === expected) ? console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-};
+const eqObjects = require('./eqObjects');
+const eqArrays = require('./eqArrays');
+const assertObjectsEqual = require('./assertObjectsEqual');
 
 const countLetters = (sentence) => {
   const obj = {};
@@ -13,7 +12,8 @@ const countLetters = (sentence) => {
         obj[element] = 1;
       }
     }
-  } console.log(obj);
+  } return obj;
 
 };
-countLetters('lighthouse in the house');
+
+module.exports = countLetters;
